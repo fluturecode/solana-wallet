@@ -1,10 +1,10 @@
-## Solana Wallet dApp
+### Solana Wallet dApp
 
 Crypto wallets are one of the foundations of Web 3. They are the gateway application into crypto ecosystems by enabling users to interact with blockchain protocols and manage digital assets.
 
 Under the hood, wallets leverage cryptographic technologies to generate and recover private keys - a concept that we'll define in the course of this tutorial. Those private keys give users access to public accounts that record ownership on a blockchain and expand the internet's functionality from a global network for information exchange to a global network for disintermediated economic exchange.
 
-## 💻 Running the development server
+### Running the development server
 
 Start the Next.js development server on the default port 3000 with:
 
