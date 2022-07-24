@@ -15,7 +15,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <GlobalContext.Provider value={{ network, setNetwork, account, setAccount, mnemonic, setMnemonic, balance, setBalance }}>
       <Layout>
-        <div>props</div>
+        <div>App Props</div>
       </Layout>
     </GlobalContext.Provider>
   )
