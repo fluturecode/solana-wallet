@@ -19,7 +19,7 @@ type DomEvent = {
   keyPath: Array<string>;
 };
 
-const Layout = ({ children }: { children: JSX.Element }): ReactElement => {
+export const Layout = ({ children }: { children: JSX.Element }): ReactElement => {
   const { network, setNetwork, account, setAccount, setBalance, setMnemonic } =
     useGlobalState();
 
