@@ -6,7 +6,7 @@ import type { AppProps } from 'next/app'
 import { GlobalContext } from "../context";
 import Layout from '../components/Layout';
 
-const MyApp = ({ Component, pageProps }: AppProps) => {
+const App = ({ Component, pageProps }: AppProps) => {
   const [network, setNetwork] = useState<Cluster | undefined>("devnet");
   const [account, setAccount] = useState<Keypair | null>(null);
   const [mnemonic, setMnemonic] = useState<string | null>(null);
